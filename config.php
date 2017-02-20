@@ -1,3 +1,5 @@
 <?php
 
-$name = 'Josh';
+$name = 'Mr Richards';
+$destination = 'Auckland';
+$page = 'Home';
