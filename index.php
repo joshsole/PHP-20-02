@@ -1,3 +1,6 @@
+<?php
+require 'config.php';
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,19 +10,19 @@
 
 <?php
 include 'navigation.php';
-?>
 
-<br>
-
-<?php
-
-$Name = "Josh";
-
- echo 'Hi, my name is ' . $Name;
+if($name == 'Gino') 
+{
+	echo 'Your name is ' . $name . '!';
+}
+else
+{
+echo 'Your name is not ' . $name . '!';
+}
 
 //adding a class
 
-echo '<h2 class="heading1">Hi my name is ' . $Name . '</h2>';
+// echo '<h2 class="heading1">Hi my name is ' . $name . '</h2>';
 
 ?>
 
