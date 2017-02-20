@@ -1,6 +1,6 @@
 <?php
 
-$name = 'Mr Richards';
+$name = $_GET['name'];
 $destination = 'Auckland';
 $page = 'Home';
 
